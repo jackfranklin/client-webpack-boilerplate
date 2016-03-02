@@ -6,6 +6,7 @@ module.exports = {
     path: './build',
     filename: 'webpack-dev-build.js',
   },
+  devtool: 'source-map',
   module: {
     loaders: [{
       test: /\.js$/,
